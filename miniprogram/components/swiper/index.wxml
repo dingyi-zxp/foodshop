@@ -1,20 +1,31 @@
-<view class="c-swiper">
-	<swiper
-		indicator-dots="{{ indicator_dots }}"
-		autoplay="{{autoplay}}"
-		class="c-swiper-frame "
-		>
-		<view wx:for="{{swipers}}" wx:key="*this">
-			<swiper-item>
-				<view class="c-swiper-item">
-					<!-- img -->
-					<image class="c-swiper-img" 
-						src="{{item.img}}"
-						mode="aspectFill"
-						/>
+<view>
+	<view class="c-swiper">
+		<!-- swiper show	-->
+		<swiper
+			class="c-swiper-frame"
+			bindchange="moitorCurrent"
+			interval="{{interval}}"
+			>
+			<view wx:for="{{swipers}}" wx:key="*this">
+				<swiper-item>
+					<view class="c-swiper-item">
+						<!-- img -->
+						<image class="c-swiper-img" 
+							src="{{item.img}}"
+							mode="aspectFill"
+							/>
+					</view>
+				</swiper-item>
+			</view>
+		</swiper>
+	</view>
 
-				</view>
-			</swiper-item>
+	<!-- swiper dots -->
+	<view class="c-swiper-dots {{dots_loc}}">
+		<view wx:for="{{dots}}" wx:key="*this">
+			<!-- dot -->
+			<view class="dot_shape dot_edge {{swiper_current==index?'dot_select':''}}" >
+			</view>
 		</view>
-	</swiper>
+	</view>
 </view>

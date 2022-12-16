@@ -6,7 +6,7 @@ Page({
 				img: "https://ssl-pubpic.51yund.com/1326650179.png",
 			},
 			{
-				img: "https://ssl-pubpic.51yund.com/1326650179.png",
+				img: "https://ssl-pubpic.51yund.com/1326697398.jpg",
 			},
 		],
 	},
