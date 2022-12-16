@@ -18,6 +18,7 @@
 		"strictPropertyInitialization": true,
 		"lib": ["ES2020"],
 		"typeRoots": ["./typings"],
+		"baseUrl": "./",
 		"paths": {
 			"@/*": ["miniprogram/*"]
 		}

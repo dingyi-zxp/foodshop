@@ -1,0 +1,6 @@
+{
+	"usingComponents": {
+		"i-button": "../../dist/button/index",
+		"cat-swiper": "../../components/swiper/index"
+	}
+}

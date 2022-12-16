@@ -1,0 +1,20 @@
+<view class="c-swiper">
+	<swiper
+		indicator-dots="{{ indicator_dots }}"
+		autoplay="{{autoplay}}"
+		class="c-swiper-frame "
+		>
+		<view wx:for="{{swipers}}" wx:key="*this">
+			<swiper-item>
+				<view class="c-swiper-item">
+					<!-- img -->
+					<image class="c-swiper-img" 
+						src="{{item.img}}"
+						mode="aspectFill"
+						/>
+
+				</view>
+			</swiper-item>
+		</view>
+	</swiper>
+</view>

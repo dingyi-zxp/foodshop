@@ -17,7 +17,15 @@
       "outputPath": ""
     },
     "es6": true,
-    "enhance": true
+    "enhance": true,
+    "postcss": true,
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./dist"
+      }
+    ]
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},

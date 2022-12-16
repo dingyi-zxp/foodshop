@@ -1,12 +1,10 @@
 {
-	"pages": ["pages/index/index", "pages/logs/logs"],
+	"pages": ["pages/index/index"],
 	"window": {
 		"backgroundTextStyle": "light",
 		"navigationBarBackgroundColor": "#fff",
 		"navigationBarTitleText": "小哈便利店",
 		"navigationBarTextStyle": "black"
 	},
-	"style": "v2",
 	"sitemapLocation": "sitemap.json"
 }
-

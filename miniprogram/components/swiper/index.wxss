@@ -1,0 +1,15 @@
+.c-swiper{
+	background: pink;
+	position: relative;
+	width: 100%;
+	height: 22vh;
+}
+
+.c-swiper-frame{ 
+	position: absolute;
+	width: 100%;
+	height: 24vh;
+}
+.c-swiper-img{
+	width: 100%;
+}

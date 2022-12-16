@@ -1,15 +1,22 @@
 {
-  "name": "miniprogram-ts-less-quickstart",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-  },
-  "keywords": [],
-  "author": "",
-  "license": "",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "miniprogram-api-typings": "^2.8.3-1"
-  }
+	"name": "miniprogram-ts-less-quickstart",
+	"version": "1.0.0",
+	"description": "foodshop",
+	"scripts": {},
+	"keywords": [],
+	"author": "zhuangxingpeng <dy_zxp@163.com>",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"miniprogram-api-typings": "^2.8.3-1"
+	},
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/dingyi-zxp/foodshop.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dingyi-zxp/foodshop/issues"
+	},
+	"homepage": "https://github.com/dingyi-zxp/foodshop#readme"
 }

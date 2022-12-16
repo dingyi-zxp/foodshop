@@ -1,0 +1,4 @@
+<!--  xiaoha food shop index page -->
+<view class="index">
+	<cat-swiper swipers="{{swiper_data}}" />
+</view>
