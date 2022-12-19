@@ -1,0 +1,49 @@
+<!-- dy card -->
+
+<view class="c-card"
+	style="margin: {{ud_margin}} {{lr_margin}};"
+	>
+
+	<view class="c-card-header {{colors.header}} cep-1">
+		<!-- header slot -->
+		<view class="c-efsb-1">
+			<!-- left slot -->
+			<view class="c-efsb-1">
+				<slot name="title"/>
+				<!-- shop logo is circle show-->
+				<view>
+					<image  class="img-circle img-size" mode="aspectFill" src="{{logo}}"></image>
+				</view>
+
+				<!-- shop are location  -->
+				<!-- if location of words so long and be about to '...' -->
+				<!-- '>' symbol on end and user chick show nearby shop  -->
+
+				<!-- TODO: don't click  -->
+				<view class="cem-1 c-fc-1">
+					<!-- word -->
+					<view class="font-big-bold clcs-1">
+						{{title}}
+					</view>
+					<!-- content more icon -->
+					<view class="c-fc-1" style="margin-left: -7px">
+						<image style="width:20px; height:20px" mode="scaleToFill" src="{{more_icon}}"></image>
+					</view>
+				</view>
+			</view>
+
+			<!-- header right -->
+			<view class="c-fc-1 ">
+				<slot name="extra" />
+				<!-- defalut setting -->
+				<!-- <view class="c-fc-1" style="margin-left: -7px"> -->
+				<!-- 		<image style="width:20px; height:20px" mode="scaleToFill" src="{{more_icon}}"></image> -->
+				<!-- 	</view> -->
+			</view>
+		</view>
+	</view>
+
+	<view class="c-card-body {{colors.body}} cep-1">
+		body
+	</view>
+</view>

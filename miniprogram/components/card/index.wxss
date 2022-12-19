@@ -1,0 +1,70 @@
+/* element padding css  */
+.cep-1{
+	padding: 5px 10px
+}
+
+/* element margin left css  */
+.cem-1 {
+	margin-left: 10px
+}
+
+/* element display is flex of space betweent */
+.c-efsb-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+/* element flex content center */
+.c-fc-1 {
+	display: flex;
+	align-items: center
+}
+
+.c-card {
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow:  0 1px 30px 1px #333;
+}
+
+.c-card-header {
+}
+.c-card-body {}
+.color-background-white {
+	background:#fff
+}
+
+.color-background-gray {
+	background: #808080
+}
+
+.color-background-red {
+	background:red
+}
+
+/* imaeg of size */
+.img-size {
+	width: 10vw;
+	height:10vw;
+}
+/* image of square */
+.img-circle {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+/* font size  */
+.font-big-bold {
+	font-size: 18px;
+	font-weight: 600
+}
+
+/* location content of space  */
+.clcs-1{
+	max-width: 35vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

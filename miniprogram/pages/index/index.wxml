@@ -1,9 +1,13 @@
 <!--  xiaoha food shop index page -->
 <view class="index">
+	<!-- activity or publicicy -->
 	<cat-swiper swipers="{{swiper_data}}" />
 	<view >
 	</view>
-	<i-card title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-    <view slot="content"></view>
-</i-card>
+	<!-- <i-card title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg"> -->
+  <!--   <view slot="content"></view> -->
+	<!-- </i-card> -->
+
+	<cat-card ></cat-card>
+
 </view>
