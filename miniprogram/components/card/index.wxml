@@ -22,11 +22,12 @@
 				<!-- TODO: don't click  -->
 				<view class="cem-1 c-fc-1">
 					<!-- word -->
-					<view class="font-big-bold clcs-1">
+					<view class="{{title_bold ? 'font-big-bold': 'font-normal'}} clcs-1">
+						{{user_into?'Hey,':''}}
 						{{title}}
 					</view>
 					<!-- content more icon -->
-					<view class="c-fc-1" style="margin-left: -7px">
+					<view wx:if="{{title_more}}" class="c-fc-1" style="margin-left: -7px" >
 						<image style="width:20px; height:20px" mode="scaleToFill" src="{{more_icon}}"></image>
 					</view>
 				</view>
@@ -42,8 +43,7 @@
 			</view>
 		</view>
 	</view>
-
-	<view class="c-card-body {{colors.body}} cep-1">
-		body
-	</view>
+		
+	<!-- TODO: not body css -->
+	<slot name="body" class="c-card-body {{colors.body}} cep-1"/> 
 </view>

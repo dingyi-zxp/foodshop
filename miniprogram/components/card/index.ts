@@ -16,7 +16,7 @@ Component({
 		},
 		color_header: {
 			type: String,
-			value: "gray",
+			value: "white",
 		},
 		color_body: {
 			type: String,
@@ -31,6 +31,19 @@ Component({
 			type: String,
 			value: "很长的文字eeeee",
 		},
+		title_more: {
+			type: Boolean,
+			value: false,
+		},
+		title_bold: {
+			type: Boolean,
+			value: false,
+		},
+		// user model
+		user_into: {
+			type: Boolean,
+			value: true,
+		},
 	},
 
 	attached: function () {
@@ -40,7 +53,7 @@ Component({
 
 	data: {
 		colors: {
-			header: "gray",
+			header: "white",
 			body: "white",
 		},
 	},
