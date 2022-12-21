@@ -1,4 +1,15 @@
+/* element basic padding */
+.ebp-1 {
+	padding: 0 15px
+}
+
+/* element upper and lower spacing */
+.euls-1 {
+	margin: 2vh 0;
+}
 .index{
 	z-index: 1;
 }
+
+
 

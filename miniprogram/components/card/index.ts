@@ -3,11 +3,14 @@ import { more as more_icon } from "../../utils/icons";
 // card component
 const prefix_color = "color-background-";
 Component({
+	options: {
+		multipleSlots: true,
+	},
 	properties: {
 		// letf and right of margin
 		lr_margin: {
 			type: String,
-			value: "10px",
+			value: "0px",
 		},
 		// up and down right of margin
 		ud_margin: {
@@ -20,7 +23,7 @@ Component({
 		},
 		color_body: {
 			type: String,
-			value: "red",
+			value: "white",
 		},
 		// logo
 		logo: {

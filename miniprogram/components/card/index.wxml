@@ -45,5 +45,6 @@
 	</view>
 		
 	<!-- TODO: not body css -->
-	<slot name="body" class="c-card-body {{colors.body}} cep-1"/> 
+	
+	<slot name="body" class="c-card-body {{colors.body}} cep-1"></slot>
 </view>
