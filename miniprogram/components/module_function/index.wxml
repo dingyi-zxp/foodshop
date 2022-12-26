@@ -1,0 +1,20 @@
+<!-- module function can divide function of user sever -->
+<view class="c-mf" style="height:{{height}}">
+
+	<view class="c-mf-flex">
+		<view wx:for="{{funcs}}" wx:key="*this" class="c-mf-flex-divide">
+			<view wx:if="{{!index%2}}" class="cut-line" >
+			</view>
+			<view class="c-ml " >
+				<view class="c-mf-content">
+					<view class="img-content">
+						<image class="img" mode="aspectFit" src="{{item.img}}"></image>
+					</view>
+					<view class="c-cts">
+						{{item.script}}
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

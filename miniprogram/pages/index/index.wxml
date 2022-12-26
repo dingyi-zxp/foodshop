@@ -13,7 +13,9 @@
 			<cat-card />
 
 			<view class="euls-1">
-				eee
+				<cat-mf
+					funcs="{{funcs}}"
+					/>
 			</view>
 		</view>
 </view>

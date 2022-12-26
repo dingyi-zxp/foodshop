@@ -9,5 +9,16 @@ Page({
 				img: "https://ssl-pubpic.51yund.com/1326697398.jpg",
 			},
 		],
+
+		funcs: [
+			{
+				script: "到店就餐",
+				img: "https://ssl-pubpic.51yund.com/1327482555.png",
+			},
+			{
+				script: "打包自提",
+				img: "https://ssl-pubpic.51yund.com/1326697398.jpg",
+			},
+		],
 	},
 });

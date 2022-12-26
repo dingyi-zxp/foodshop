@@ -4,6 +4,7 @@
 		"i-button": "../../dist/button/index",
 		"cat-swiper": "../../components/swiper/index",
 		"i-card": "../../dist/card/index",
-		"cat-card": "../../components/card/index"
+		"cat-card": "../../components/card/index",
+		"cat-mf": "../../components/module_function/index"
 	}
 }
